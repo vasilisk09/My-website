@@ -1,0 +1,269 @@
+body{
+    background: lightgray;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header{
+    background:green;
+    padding-top: 20px;
+    height: 88px;
+}
+
+main{
+    width: 100%;
+    word-break: normal;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 a:link{
+    text-decoration: none; 
+    color: black;
+}
+
+h1 a:visited{
+    text-decoration: none; 
+    color:black
+}
+
+h2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    background: green;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+img:not(.gallery img){
+    height: 230px;
+    background-color: white;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar li{
+    float: left;
+}
+
+#email:visited{
+    color: #0000EE;
+}
+
+#email:hover{
+    color: lightskyblue;
+}
+
+.links:visited{
+    color: #0000EE;
+}
+
+.links:hover{
+    color: lightskyblue;
+}
+
+.art{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#logo{
+    background: transparent;
+    border: none;
+    height: 40px;
+    position: relative;
+    top: -10px;
+    float: left;
+}
+
+.art{
+    margin-left: 10px;
+}
+
+#end{
+    margin-left: 10px;
+}
+
+/*.start{
+    border: none;
+    border-radius: 0;
+    position: relative;
+    top: 10px;
+    width: 155px;
+
+}
+
+.startt{
+    padding: 2px;
+    border: black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.all{
+    background-color: lightskyblue;
+    border: 5px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}*/
+
+.all:hover{
+    background-color: rgb(104, 180, 255);
+}
+
+.all a:link{
+    color: black;
+    text-decoration: none; 
+}
+
+.all a:hover{
+    color: black;
+    text-decoration: none; 
+}
+
+.all a:visited:hover{
+    color: black;
+    text-decoration: none; 
+}
+
+#aboutme{
+    margin-right: 4px;
+}
+
+
+.gallery{
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 60%);
+    border-radius: 6px;
+    margin: 5px;
+    width: 200px;
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.gallery:hover{
+    border-color: hsl(0, 0%, 20%);
+}
+
+.gallery img{
+    width: 200px;
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.youtube{
+    color: #FF0000;
+}
+
+.x{
+    color: black;
+}
+
+.instagram{
+    color: #C13584;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-big {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-huge {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+.playwrite {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
